@@ -11,7 +11,7 @@ import org.jcluster.lib.annotation.JcRemote;
  *
  * @author henry
  */
-@JcRemote(appName = "jcGuiTestApp")
+@JcRemote(appName = "jcAppNameDefault")
 public interface FilterTestIFace {
 
     public static String FILTER_TEST_1_FILTERNAME = "filter1";
